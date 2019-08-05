@@ -19,7 +19,7 @@ spec:
             - containerPort: 27017
 
 
-  replicas: 1
+  replicas: 4
 
   selector:
     matchLabels:
