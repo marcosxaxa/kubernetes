@@ -16,10 +16,10 @@ spec:
         - name: mongodb-container
           image: mongo
           ports:
-            - containerPort: 27017
+          - containerPort: 27017
 
 
-  replicas: 1
+  replicas: 4
 
   selector:
     matchLabels:
