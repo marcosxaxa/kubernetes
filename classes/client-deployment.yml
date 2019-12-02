@@ -7,7 +7,7 @@ spec:
   selector: 
     matchLabels: 
       component: web
-  tamplate:
+  template:
     metadata:
       labels:
         component: web
